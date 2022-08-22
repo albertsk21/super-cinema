@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Bucharest Afi Cotroceni",
+    "addressDetails": "Bulevardul Vasile Milea, nr.4, Bucharest",
+    "city": {
+      "name": "Bucharest"
+    }
+  },
+  {
+    "name": "Bucharest Mega Mall",
+    "addressDetails": " Street Liviu Rebreanu, nr. 4, 031783, Bucharest",
+    "city": {
+      "name": "Bucharest"
+    }
+  },
+  {
+    "name": "Ploiesti Afi",
+    "addressDetails": " Str. Calomfirescu, nr 2, 100176, Ploiesti",
+    "city": {
+      "name": "Ploiesti"
+    }
+  },
+  {
+    "name": "Ploiesti Shopping City",
+    "addressDetails": "Dn. 1B, nr. 915A, Km.6 Blejoi, 107070, Ploiesti",
+    "city": {
+      "name": "Ploiesti"
+    }
+  },
+  {
+    "name": "Constanta Vivo",
+    "addressDetails": "Bldv. Aurel Vlaicu, nr. 220, 900498, Constanta",
+    "city": {
+      "name": "Constanta"
+    }
+  },
+  {
+    "name": "Constanta City Park",
+    "addressDetails": "Blvd Alexandru Lapusneanu, nr 112 C, 900419, Constanta",
+    "city": {
+      "name": "Constanta"
+    }
+  }
+]

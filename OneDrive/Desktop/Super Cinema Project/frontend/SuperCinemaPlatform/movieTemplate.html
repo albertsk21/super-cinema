@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+        <link rel="icon" href="./content/brand-logo/small-logo.jpeg"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="./css/general.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/ticketType.css">
+        <link rel="stylesheet" href="./css/seats.css">
+        <link rel="stylesheet" href="./css/formPerson.css">
+        <link rel="stylesheet" href="./css/finish.css">  
+        <link rel="stylesheet" href="./css/media-queries.css">
+        <link rel="stylesheet" href="./css/moviePage.css">
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script type="module" src="./src/app.js"></script>
+       <title>Super Cinema</title>
+    </head>
+<body>
+    <header class="header header-container">
+
+        <div class="header-logo logo"><img src="./content/brand-logo/full-logo.jpeg" alt="Super Cinema Logo"></div>
+
+    </header>
+    <section class="second-header-section hide-mobile-nav open-mobile-nav  ">
+        <nav class="main-nav ">
+      
+            <buuton  class=" mobile-nav ">
+                <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+                <ion-icon class="icon-mobile-nav" name="ellipsis-horizontal-outline"></ion-icon>
+            
+            </buuton>
+            <div class="empty-nav-bar"></div>
+            <ul class="main-nav-list header-container "  >
+            
+                <li><a class="btn-link btn btn-fill btn-nav first-btn-nav" href="#"><span>offers</span></a></li>
+                <li><a class="btn-link btn btn-fill btn-nav" href="#"><span>gifts</span></a></li>
+                <li><a class="btn-link btn btn-fill btn-nav" href="#"><span>blog</span></a></li>
+                <li><a class="btn-link btn btn-fill btn-nav" href="#"><span>about us</span></a></li>
+                <li><a class="btn-link btn btn-fill btn-nav" href="#"><span>news</span></a></li>
+                <li><a class="btn-link btn btn-fill btn-nav" href="#"><span>Forum Film</span></a></li>
+                <li><a class="btn-link btn btn-fill btn-nav" href="#"><span>vip</span></a></li>
+                <li><a class="btn-link btn btn-fill btn-nav" href="#"><span>Comunity</span></a></li>
+            </ul>
+        </nav>
+    </section>
+
+
+    <section class="video-section container">
+
+
+           <div class="top-details-movie"><h6>Spider Man: No way home</h6> <button class="btn btn-high-big btn-outline--yellow btn-big ">Book now</button></div>
+           <div class="trailer-movie"> <embed src="https://www.youtube.com/embed/rt-2cxAiPJk" ></div>
+           <div class="details-movie-page">
+               <div class="details-tile"><h6>More details about Sprider man: No way home</h6></div>
+               <div class=" grid details-box-grid ">
+                   <div class="details-movie-main grid grid--cols-2 ">
+                       <div class="details-first-child row">
+                            <div class="release-date-box details-mini-box">
+                                <div class="star-icon icon-details "><ion-icon name="star-outline"></ion-icon></div>
+                                <div>
+                                    <div class="release-date-tile details-mini-box-title">Release date</div>
+                                    <div class="release-date details-mini-box">2021-12-17</div>
+                                </div>
+                            </div>
+                            <div class="dusration-movie-box">
+                                <div class="duration-movie-box details-mini-box">
+                                    <div class="icon-details clock-icon"><ion-icon name="time-outline"></ion-icon></div>
+                                    <div>
+                                        <div class="duration-movie-tile details-mini-box-title">Time duration</div>
+                                        <div class="duration-movie details-mini-box">120 min</div>
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="description">When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man. Peter Parker's secret identity is revealed to the entire world. Desperate for help, Peter turns to Doctor Strange to make the world forget that he is Spider-Man.</div>
+                       </div>
+                     
+                       <div class="row details-last-child">
+                           <div class="original-title">Original title: <span class="content-details">Spider-Man: no way home</span></div>
+                           <div class="Filme genre">Film genre: Action, Adventure, Sci-Fi</div>
+                           <div class="cast">Cast: Zendaya, Tom Holland, Benedict Cumberbatch, Marisa Tomei, Jamie Foxx, Angourie Rice</div>
+                           <div class="production">Production: 2021 </div>
+                           <div class="Original language">Original language: EN</div>
+                           <div class="Age restrictions">Age restrictions: AP-12</div>
+                       </div>
+                   </div>
+                   <div class="photo"><img src="https://i.postimg.cc/jS9MS7RQ/spierman-no-way-home.jpg" alt=""></div>
+               </div>
+           </div>
+
+    </section>
+
+
+ 
+        <section class="in-our-programs-section ">
+     
+            <div class="our-programs-container programs-container">
+               <div class="title-programs"> <h3>Get your reservation</h3></div>
+
+              <form action="" class="form-programs">
+                    <div>
+                        <h5>Choose a cinema</h5>
+                        <select name="cinemas" id="cinemas" class="cinemas">
+                            <option  class="option" value="Bucharest Afi Cotroceni">Example</option>
+                            <option class="option" value="Bucharest Afi Cotroceni">Bucharest Afi Cotroceni</option>
+                            <option class="option" value="Afi Ploiesti">Afi Ploiesti</option>
+                            <option class="option" value="Bucharest Mega Mall">Bucharest Mega Mall</option>
+                        </select>
+                    </div>
+
+                    <div class="button-search">
+                        <button class="btn btn-link btn-fill btn-big btn-radius hide-btn">hide</button>
+                        <button class="btn btn-link btn-fill btn-big btn-radius">search</button>
+                 
+                    </div>
+              </form>
+            </div>
+
+
+            <div class="search-container programs-container" style="display: none;">
+
+                <div class="movie-item">
+                     <div class="reservation-item">
+                        <div class="date-item"><p>2022-04-04</p></div>
+                         <a href="#" class=" btn-hour btn-link btn-fill btn-small btn-radius">13:40</a>
+                         <a href="#" class=" btn-hour btn-link btn-fill btn-small btn-radius">18:00</a>
+                         <a href="#" class=" btn-hour btn-link btn-fill btn-small btn-radius">19:40</a>
+                    </div>
+                </div>
+                <div class="movie-item">
+                    <div class="reservation-item">
+                        <div class="date-item"><p>2022-05-04</p></div>
+                         <a href="#" class=" btn-hour btn-link btn-fill btn-small btn-radius">13:40</a>
+                    </div>
+                </div>
+                <div class="movie-item">
+                     <div class="reservation-item">
+                         <div class="date-item"><p>2022-04-07</p></div>
+                         <a href="#" class=" btn-hour btn-link btn-fill btn-small btn-radius">13:40</a>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+
+    
+
+         <section class="movies container " style="display: block;">
+
+            <div class="movie-container grid ">
+                <div class="animations movie-items"></div>
+                <div class="Action movie-items"></div>
+                <div class="Sci-fi movie-items"></div>
+            </div>
+  
+         </section>
+    
+
+         <footer class="footer-container">
+            <div class="footer-grid grid">
+
+                <div class="logo-icons-footer">
+                        <div class="footer-logo logo"><img src="./content/brand-logo/full-logo.jpeg" alt="Super Cinema Logo"></div>
+                        <div class=footer-icons>
+                            <ion-icon name="logo-instagram"></ion-icon>
+                            <ion-icon name="logo-facebook"></ion-icon>
+                            <ion-icon name="logo-tiktok"></ion-icon>
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </div>
+                </div>
+
+
+                <div class="ul-footer ">
+                    <div class="footer-title"><h5>Movies</h5></div>
+                    <ul>
+                        <li><a href="javascript:void(0)">Drama</a></li>
+                        <li><a href="javascript:void(0)">Adventure</a></li>
+                        <li><a href="javascript:void(0)">Comedy</a></li>
+                        <li><a href="javascript:void(0)">Action</a></li>
+                    </ul>
+                </div>
+                <div class="ul-footer ">
+                    <div class="footer-title"><h5>Support</h5></div>
+                    <ul>
+                        <li><a href="javascript:void(0)">Help Center</a></li>
+                        <li><a href="javascript:void(0)">FAQ</a></li>
+                        <li><a href="javascript:void(0)">Contact Is</a></li>
+                        <li><a href="javascript:void(0)">Ticket Support</a></li>
+                    </ul>
+                </div>
+                <div class="ul-footer ">
+                    <div class="footer-title"><h5>About Super Cinema</h5></div>
+                    <ul>
+                        <li><a href="javascript:void(0)">About Us</a></li>
+                        <li><a href="javascript:void(0)">Careers</a></li>
+                        <li><a href="javascript:void(0)">News & Article</a></li>
+                        <li><a href="javascript:void(0)">Legal Notice</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <div class="grid">
+                    <ul>
+                        <li><a href="javascript:void(0)">Term of Use</a></li>
+                        <li><a href="javascript:void(0)">Privacy Policy</a></li>
+                        <li><a href="javascript:void(0)">Cookie Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="copyright-text">
+                    <p>Copyright &#xa9; 2022. All rights reserved</p>
+                </div>
+            </div>
+    </footer>
+   
+</body>
+</html>

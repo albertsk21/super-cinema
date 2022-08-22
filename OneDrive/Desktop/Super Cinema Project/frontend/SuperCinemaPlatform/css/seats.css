@@ -1,0 +1,161 @@
+
+.seats-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    height: 100vh;
+    width: 100%;
+    background-color: #FCA312;
+    position: relative;
+ 
+}
+
+.main-seats-container{
+    content: "";
+    top: 0;
+    position: fixed;
+    backdrop-filter: blur(5px);
+    padding: 50%;
+    height: 100vh;
+}
+.seats-container-flex{
+    position: fixed ;
+    /* overflow: hidden; */
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: #121213;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    height: 100%;
+    width: 98%;
+    flex-direction: column;
+    z-index: 9;
+}
+
+
+.cinema-display{
+
+    margin-top: 1rem;
+    width: 55rem;
+    background-image: url('../content/seats-section/Untitled-1.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
+    height: 12rem;
+}
+.numbers div p{
+    color: #FCA312;
+    font-size: 1.6rem;
+}
+.numbers-left{
+    position: absolute;
+    bottom: 5rem;
+    left: 10rem;
+}
+.numbers-right{
+    position: absolute;
+    bottom: 5rem;
+    right: 10rem;
+}
+.numbers div{
+
+    text-align: center;
+    margin-top: 2.3rem;
+    padding: 0rem 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.hall-name{
+    position: absolute;
+    color:  #FCA312;
+    left: 5rem;
+    top: 5rem;
+}
+.movie-name{
+    position: absolute;
+    color:  #FCA312;
+    right: 5rem;
+    top: 5rem;   
+}
+.movie-name  p {
+    font-size: 1.2rem;
+}
+.door{
+   position : absolute;
+   background-color:  #FCA312;
+   left: -1px;
+   top: 13rem;
+   padding: 2rem 3rem; 
+   border-radius: 0px 0px 100% 0px;
+}
+.door::after{
+   content: 'door';
+   color: rgb(255, 255, 255);
+   font-size: 1.8rem;
+    position: absolute;
+    top: -2rem;
+    left: 0.5rem;
+}
+.seats{
+    position: relative;
+    margin-top: 4rem;
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    flex-direction: column;
+}
+
+
+.seat{
+    width: 2rem;
+    height: 2rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px 20px 1px 1px ;
+    transition: all 0.2s;
+}
+.seat:hover{
+    cursor: pointer;
+    background-color:  #d88703;
+}
+
+.col{
+    margin-bottom: 2rem;
+    column-gap: 1rem;
+}
+
+.next-step-btn{
+    position: absolute;
+    bottom: 2rem;
+    right: 3rem;
+
+}
+.next-step-btn button {
+    font-weight: 500;
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+}
+.nunber-seat{
+    color: #fff;
+    font-size: 1.2rem;
+}
+.numbers-seat-grid{
+    column-gap: 1.7rem;
+}
+.numbers-seat-grid:last-child {
+    column-gap: 1rem;
+}
+.numbers  div {
+    margin-bottom: 4.2rem;
+}
+.numbers  div:last-child{
+    margin-bottom: 1rem;
+}

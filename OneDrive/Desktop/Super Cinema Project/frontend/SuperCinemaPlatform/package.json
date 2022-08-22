@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "test": "mocha tests",
+    "start": "http-server -a localhost -p 8000 -P http://localhost:8000? -c-1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "http-server": "^14.1.0",
+    "lit-html": "^2.2.0",
+    "page": "^1.11.6"
+  }
+}

@@ -1,0 +1,234 @@
+
+
+
+/* ---------------------------- */
+/*             840px           */
+/* ---------------------------- */
+@media (max-width : 52.5em){
+
+  
+    .top-details-movie{
+        width: 94.5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .trailer-movie embed {
+
+        width: 90rem;
+        height: 50rem;;
+
+    }
+
+    .trailer-movie {
+        display: flex;
+        justify-content: center
+    }
+    .details-movie-page {
+        margin-top: 4rem;
+        width: 90rem;
+        height: 60rem;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+ 
+}
+/* ---------------------------- */
+/*             800px           */
+/* ---------------------------- */
+@media (max-width : 50em){
+
+    .top-details-movie{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .details-movie-page{
+        height: 100rem;
+    }
+    .trailer-movie embed {
+
+        width: 80rem;
+        height: 40rem;;
+
+    }
+    .duration-movie-box {
+        float:right;
+    }
+    .details-box-grid {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        height: 60rem;
+        display: block;
+        justify-content: baseline;
+    }
+
+    .photo{
+        margin-top: 4rem;
+        width: 30rem;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+}
+
+/* ---------------------------- */
+/*             764px           */
+/* ---------------------------- */
+@media (max-width : 47.75em){
+    .details-movie-page {
+        height: 100rem;
+        width: 75rem;
+    
+
+    }
+    .photo img{
+        width: 26rem;
+          justify-content: center;
+    }
+}
+
+/* ---------------------------- */
+/*             700px           */
+/* ---------------------------- */
+@media (max-width : 43.75em){
+    .trailer-movie embed {
+
+        width: 70rem;
+        height: 40rem;;
+
+    }
+    .top-details-movie{
+        margin-top: 4rem;
+        padding-right: 4rem;
+        padding-left: 4rem;
+
+    }
+}
+
+/* ---------------------------- */
+/*             634px           */
+/* ---------------------------- */
+@media (max-width : 39em){
+    
+    .trailer-movie embed {
+
+        width: 90%;
+        height: 40rem;;
+
+    }
+    .details-movie-page {
+        height: 100rem;
+        width: 70rem;
+    
+
+    }
+    .container{
+        /* 1140px */
+        max-width: 100rem;
+        margin: 0rem 0;
+    }
+    .details-movie-main .row {
+        /* background-color: orange; */
+        padding: 0rem;
+        margin: 0rem 0rem 0rem 0rem;
+  
+        margin-top: 2rem;
+    }
+}
+
+/* ---------------------------- */
+/*             600px           */
+/* ---------------------------- */
+@media (max-width : 37.5em){
+    .trailer-movie embed {
+
+        width: 90%;
+        height: 40rem;;
+
+    }
+    .details-movie-page {
+        height: 100rem;
+        width: 70rem;
+    
+
+    }
+    
+    .details-movie-main .row {
+        padding: 0rem;
+        margin: 0rem 0rem 0rem 0rem;
+  
+        margin-top: 2rem;
+    }
+    .details-movie-page {
+        height: 100rem;
+        width: 90%;
+    
+
+    }
+    .details-movie-page{
+        margin-bottom: 10rem;
+        height: 100rem;
+    }
+
+}
+
+
+/* ---------------------------- */
+/*             400px           */
+/* ---------------------------- */
+@media (max-width : 25em){
+    .trailer-movie embed {
+
+        width: 90%;
+        height: 30rem;;
+
+    }
+    .top-details-movie{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1rem;
+    }
+    .top-details-movie h6{
+        font-size: 1.8rem;
+    }
+    .top-details-movie button {
+        font-size: 1.2rem;
+    }
+    .photo img{
+        width: 20rem;
+
+
+    }
+   
+}
+
+/* ---------------------------- */
+/*             600px           */
+/* ---------------------------- */
+@media (max-width : 33.75em){
+
+    .photo {
+        width: 8rem;
+
+
+    }
+
+    .ticket{
+        width: 40rem;
+     
+    }
+    .ticket {
+        column-gap: 4rem;
+    }
+    .tickets-container{
+        width: 70%;
+    
+    }
+}

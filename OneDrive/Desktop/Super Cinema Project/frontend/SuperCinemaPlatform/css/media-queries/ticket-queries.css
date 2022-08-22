@@ -1,0 +1,101 @@
+
+
+/* ---------------------------- */
+/*             840px           */
+/* ---------------------------- */
+@media (max-width : 53em){
+
+    .main-ticket-container{
+        position:unset;
+
+        margin-top: 20rem;
+        
+    }
+    .container-flex {
+   
+        width: 95%;
+   
+    }
+}
+
+/* ---------------------------- */
+/*             756px           */
+/* ---------------------------- */
+
+@media (max-width : 47.25em){
+    .main-ticket-container{
+     
+        margin-top: 10rem;
+        
+    }
+    .details {
+        height: 66rem;
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+
+    }
+    .tickets-container{
+        height: 10rem;
+        row-gap: 2rem;
+    } 
+    .col-2{
+        height: 40rem;
+        border-top: 1px solid #979796;
+        border-left: none;
+    }
+    .container-flex{
+        height: 65rem;
+    }
+
+}
+
+
+/* ---------------------------- */
+/*             540px           */
+/* ---------------------------- */
+
+@media (max-width: 33.75em){
+    
+
+    .btn-ticket{
+        font-size: 1.2rem;
+    }
+
+    .ticket div h5{
+        font-size: 1.2rem ;
+    }
+    .tickets-container {
+    
+        margin-left: 3rem;
+    }
+    .steps div p {
+        font-size: 1.6rem;
+    }
+    .ticket-price p{
+        font-size: 1.6rem;
+    }
+}
+
+/* ---------------------------- */
+/*             454px           */
+/* ---------------------------- */
+
+@media (max-width: 33.75em){
+    .steps div p {
+        font-size: 1.4rem;
+    }
+  
+}
+
+/* ---------------------------- */
+/*             380px           */
+/* ---------------------------- */
+
+@media (max-width: 23.75em){
+   
+    .tickets-container {
+    
+        margin-left: 0rem;
+    }
+  
+}

@@ -1,0 +1,50 @@
+
+
+/* ---------------------------- */
+/*             840px           */
+/* ---------------------------- */
+@media (max-width : 52.5em){
+
+
+}
+
+
+/* ---------------------------- */
+/*             756px           */
+/* ---------------------------- */
+
+@media (max-width : 47.25em){
+ 
+    .steps{
+        padding-bottom: 2rem;
+         padding-top: 1rem;
+    }
+
+    .container-from{
+        height: 77.3rem;
+    }
+    
+
+    .main-form-container{
+        margin-top: 10rem;
+        position: unset;
+    }
+   
+}
+
+/* ---------------------------- */
+/*             560px           */
+/* ---------------------------- */
+
+@media (max-width : 35em){
+
+    .details-from form {
+
+        grid-template-columns: 1fr;
+  
+    }
+    .details-from form {
+        row-gap: 3rem;
+    }
+
+}

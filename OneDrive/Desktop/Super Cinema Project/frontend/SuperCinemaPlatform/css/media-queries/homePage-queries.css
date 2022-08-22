@@ -1,0 +1,597 @@
+/* ---------------------------- */
+/*             1080px           */
+/* ---------------------------- */
+
+@media (max-width : 67.5em){
+    html{
+        font-size: 52.5% ;
+    }
+    .open-trailer{
+        position: fixed;
+        border-radius: 10px;
+        height: 45rem;
+        width: 80rem;
+        background-color: #fff;
+        top: 9%;
+      
+        left: 50%;
+        
+        transform: translate(-50%, 0);
+        box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.253);
+        display: flex;
+        justify-content: center;
+    
+    }
+    .video-homepage{
+
+        height: 35rem;
+        width: 70rem;
+    }
+}
+
+/* ---------------------------- */
+/*             840px           */
+/* ---------------------------- */
+@media (max-width : 53em){
+ 
+
+    .slide-show-container img{
+        width: 100%;
+        transform: scale(1.1);
+    }
+
+    .mobile-nav{
+        top: 3.5rem;
+        right: 4rem;
+        font-size: 5rem;
+        color: #FCA312;
+        position: absolute;
+        border: none;
+    }
+
+
+    .mobile-nav{
+        display: block;
+    }
+    .open-mobile-nav .main-nav .main-nav-list{
+        flex-direction: column;
+
+    }
+
+    .btn-nav{
+      border-right: none ;
+    }
+    .header-logo{
+        padding: 2rem 0rem;
+        padding-left: 4rem;
+    }
+ 
+    .first-btn-nav{
+        border-left: none;
+    }
+    
+    .open-mobile-nav .main-nav{
+        height: auto;
+    }
+
+   .nav-open .main-nav-list{
+        display: block;
+
+    }
+    .nav-open  .icon-mobile-nav[name = "close-outline"]{
+        display: block;
+    }   
+
+    .nav-open   .icon-mobile-nav[name = "ellipsis-horizontal-outline"]{
+        display: none;
+    }
+    
+    .main-nav-list{
+        display: none;
+
+    }
+
+    .icon-mobile-nav[name = "close-outline"]{
+        display: none;
+    }
+    .icon-mobile-nav[name = "ellipsis-horizontal-outline"]{
+        display:block;
+        
+    }
+
+
+
+
+    
+ 
+
+    /* MOVIES SECTION */
+    
+
+   
+
+    .result-searched-movie{
+  
+       grid-template-columns: 1fr 1fr 1fr;
+     }
+
+     .image-search-movie-item{
+        width: 23rem;
+     }
+
+     .search-movie-form{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2,3fr);
+        
+        gap: 2rem;
+        margin-left: 2rem;
+    }
+
+    .window-container{
+        content: "";
+        top: 0;
+        position: fixed;
+        backdrop-filter: blur(5px);
+        padding: 50%;
+        display: none;
+        height: 100vh;
+    
+    }
+    
+
+    .one-movie-container {
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 0.7fr;
+        column-gap: 4rem;
+        row-gap: 10rem;
+    }
+
+
+    .one-movie-image img {
+        width: 60%;
+    }
+
+    .content-one-movie{
+  
+        text-align: center;
+     
+    }
+    .content-one-movie div:first-child{
+        margin-top: 0rem;
+    }
+    .content-one-movie div{
+        margin-top: 3rem;
+    }
+    .one-movie-image{
+        padding-bottom: 4rem;
+    
+   
+    }
+    .buttons-one-movie{
+        justify-content: center;
+    }
+    .one-movie-image{
+        display: flex;
+        justify-content: center;
+    }
+  
+
+}
+
+
+
+/* ---------------------------- */
+/*             756px           */
+/* ---------------------------- */
+
+@media (max-width : 47.25em){
+  
+
+    .btn-book{
+        position:absolute;
+        bottom: 5rem;
+        right: 3rem;
+    }
+
+    .h4-carousel{
+        position: absolute;
+        left: 3rem;
+        bottom: 5rem;
+    
+    }
+
+
+    .h4-carousel h4{
+        font-size: 2.5rem;
+    }
+  
+
+     .image-search-movie-item{
+        width: 18rem;
+     }
+
+     .search-movie-form{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2,3fr);
+        
+        gap: 2rem;
+        margin-left: 2rem;
+    }  
+
+    .movies-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .one-movie-container {
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 0.8fr;
+        column-gap: 4rem;
+        row-gap: 10rem;
+    }
+
+
+
+    .footer-grid {
+        margin-top: 20rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 1rem;
+        column-gap: 1rem;
+    
+    }
+
+    .logo-icons-footer {
+        justify-self: center;
+        grid-column: 1/span 3;
+    }
+
+    .copyright{
+        margin-top: 4rem;
+    }
+
+    .open-trailer{
+        z-index: 99999999999999;
+        position: fixed;
+        border-radius: 10px;
+        height: 40rem;
+        width: 60rem;
+        background-color: #fff;
+        top: 9%;
+      
+        left: 50%;
+        
+        transform: translate(-50%, 0);
+        box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.253);
+        display: flex;
+        justify-content: center;
+    
+    }
+    .video-homepage{
+
+        height: 30rem;
+        width: 55rem;
+    }
+}
+
+
+/* ---------------------------- */
+/*             579px           */
+/* ---------------------------- */
+
+@media (max-width : 36.18em){
+    .movie-item{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 4rem;
+        
+    }
+    .image-search-item{
+        width: 18rem;
+    }
+    
+    .details-movie{
+        margin-top: 1rem;
+        margin-left: 0rem;
+        
+    }
+
+    .movie {
+        margin-top: 3rem;
+        margin-left: 0rem;
+        row-gap: 1rem;
+    }
+    .buttons-one-movie button{
+        width: 21rem;
+    }
+    .movies-section{
+        padding: 4rem 2rem;
+    }
+  
+
+    .result-searched-movie{
+        margin-top: 8rem;
+        grid-template-columns:  1fr 1fr;
+        column-gap: 4rem;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .image-search-movie-item{
+        width: 19rem;
+     }
+
+
+     .movies-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+  
+    }
+
+    .open-trailer{
+        z-index: 99999999999999;
+        position: fixed;
+        border-radius: 10px;
+        height: 40rem;
+        width: 55rem;
+        background-color: #fff;
+        top: 9%;
+      
+        left: 50%;
+        
+        transform: translate(-50%, 0);
+        box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.253);
+        display: flex;
+        justify-content: center;
+    
+    }
+    .video-homepage{
+
+        height: 30rem;
+        width: 50rem;
+    }
+
+}
+/* ---------------------------- */
+/*             500px           */
+/* ---------------------------- */
+@media (max-width : 31.25em){
+    .h4-carousel {
+        top: 2rem;
+    }
+    .btn-book{
+        display: none;
+    }
+    .btn-arrow{
+    
+        top: 30%;
+    
+        margin-top: 0rem;
+        padding: 5px;
+    
+      }
+    .form-programs {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .form-programs div:first-child{
+        display: flex;
+        gap: 4rem;
+    }
+    .buttons-one-movie{
+        flex-direction: column;
+        
+        margin-left: auto;
+    }
+
+    
+.buttons-one-movie{
+    padding-top: 4rem;
+}
+.buttons-one-movie{
+    display: flex;
+    gap: 5rem;
+    
+}
+.buttons-one-movie button{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.steps-container {
+    column-gap: 4rem;
+    margin: 16rem 0rem;
+    justify-content: center;
+    grid-template-columns: 0.5fr;
+    row-gap: 4rem;
+
+}
+
+.container-step-photo{
+    width: 100%;
+}
+
+
+
+
+.footer-grid {
+
+    grid-template-columns:   1fr;
+    row-gap: 1rem;
+    column-gap: 1rem;
+
+}
+
+.logo-icons-footer {
+    justify-self: center;
+
+}
+
+
+
+.footer-grid {
+    margin-top: 20rem;
+    grid-template-columns:  1fr;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    justify-content: center;
+
+}
+.footer-grid{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+
+/* ---------------------------- */
+/*             400px           */
+/* ---------------------------- */
+@media (max-width : 25em){
+
+
+    .logo{
+        width: 17rem;
+    }
+
+  
+  .btn-arrow:hover{
+      background-color: rgba(0,0,0,0.7);
+  }
+
+  .carousel-indicators{
+    position: absolute;
+    display: flex;
+    gap: 1rem;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%); 
+}
+.carousel-inidicator{
+
+    color: #999;
+    border: none;
+    padding: 0.4rem  1rem;
+    transition: all 0.3s;
+} 
+
+.search-movie-item {
+    /* background-color: #fff; */
+    width:15rem;
+
+}
+.h4-carousel h4{
+    font-size: 2rem;
+}
+
+.form-programs div:first-child{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.button-hours{
+    display: grid;
+    grid-template-columns: 0.1fr 0.1fr ;
+}
+.notify{
+    position: fixed;
+    text-align: center;
+    
+    background: #fc2d12;
+    padding: 2rem;
+    width: 25rem;
+    top: 2rem;
+    right: 2rem;
+    transform: translateY(-200%);
+    animation-name: showNotify;
+    animation-duration: 3s;
+    animation-duration: alternate;
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.253);
+    display: none;
+}
+.notify p{
+
+    font-weight: 300;
+    font-size: 1.6rem;
+    color: #fff;
+    
+
+}
+.result-searched-movie{
+    margin-top: 8rem;
+    grid-template-columns: 0.4fr 0.4fr;
+    column-gap: 0rem;
+    justify-content: center;
+  }
+  .result-searched-movie {
+    grid-template-columns: repeat(0.5fr);
+}
+  .image-search-movie-item{
+    width: 12rem;
+    margin-left: 1;
+    padding: 0;
+ }
+
+
+ .movies-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.slogan{
+    text-align: center;
+}
+
+.one-movie-container {
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 0.7fr;
+    column-gap: 4rem;
+    row-gap: 3rem;
+
+}
+
+.search-movie-form{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    
+    gap: 2rem;
+    margin-left: 2rem;
+}
+.image-search-movie-item img{
+    width: 100%;
+}
+
+.one-movie-image img {
+    width: 100%;
+}
+.steps-container {
+    column-gap: 2rem;
+    margin: 16rem 0rem;
+    justify-content: center;
+    grid-template-columns: 0.5fr;
+    row-gap: 2rem;
+    padding-bottom: 20rem;
+
+}
+.logo-icons-footer {
+    justify-self: center;
+    grid-column: 1/1;
+}
+
+}

@@ -1,0 +1,65 @@
+
+/* ---------------------------- */
+/*             840px           */
+/* ---------------------------- */
+@media (max-width : 52.5em){
+
+
+    .numbers-left{
+        left: 2rem;
+    }
+    .numbers-right{
+        right: 2rem;
+    }
+}
+
+/* ---------------------------- */
+/*             632px           */
+/* ---------------------------- */
+@media (max-width : 39.5em){
+    .numbers-left{
+        display: none;
+    }
+    .numbers-right{
+        display: none;
+    }
+    .hall-name{
+    
+        left: 1rem;
+     
+    }
+    .seat{
+        width: 2rem;
+        height: 2rem;
+     
+    }
+
+}
+
+/* ---------------------------- */
+/*             632px           */
+/* ---------------------------- */
+@media (max-width : 35.5em){
+    .hall-name{
+    
+        top: 1rem;
+    }
+    .seat{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .numbers-seat-grid {
+        column-gap: 1.2rem;
+    }
+    .numbers-seat-grid:last-child {
+        column-gap: 0.5rem;
+    }
+    .cinema-display {
+        margin-top: 3rem;
+        width: 40rem;
+     
+        height: 12rem;
+    }
+
+   
+}

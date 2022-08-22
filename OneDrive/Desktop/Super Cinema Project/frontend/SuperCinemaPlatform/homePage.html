@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/media-queries.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,900&family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="templateHome.js"></script>
+   <title>HomePage Template</title>
+</head>
+<body>
+    
+    <header class="header header-container">
+
+        <div class="header-logo logo"><img src="./content/brand-logo/full-logo.jpeg" alt="Super Cinema Logo"></div>
+
+    </header>
+    <section class="second-header-section hide-mobile-nav open-mobile-nav  ">
+        <nav class="main-nav ">
+      
+            <buuton  class=" mobile-nav ">
+                <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+                <ion-icon class="icon-mobile-nav" name="ellipsis-horizontal-outline"></ion-icon>
+            
+            </buuton>
+            <div class="empty-nav-bar"></div>
+            <ul class="main-nav-list header-container "  >
+            
+                <li><a class="btn-link btn btn-fill btn-nav first-btn-nav" href="#"><span>offers</span></a></li>
+                <li><a class="btn-link btn btn-fill btn-nav" href="#"><span>gifts</span></a></li>
+                <li><a class="btn-link btn btn-fill btn-nav" href="#"><span>blog</span></a></li>
+                <li><a class="btn-link btn btn-fill btn-nav" href="#"><span>about us</span></a></li>
+                <li><a class="btn-link btn btn-fill btn-nav" href="#"><span>news</span></a></li>
+                <li><a class="btn-link btn btn-fill btn-nav" href="#"><span>Forum Film</span></a></li>
+                <li><a class="btn-link btn btn-fill btn-nav" href="#"><span>vip</span></a></li>
+                <li><a class="btn-link btn btn-fill btn-nav" href="#"><span>Comunity</span></a></li>
+            </ul>
+        </nav>
+    </section>
+
+
+
+    
+    <main id="main-app">
+   
+            
+            <section>
+                <div class="slide-show-container">
+    
+    
+        
+                    <div class="carousel-item active-carousel-item fade  ">
+                        <img src="./content/slideshow-images/belle.jpg" alt="">  
+                        <a href="#" class="btn-book  btn-link btn-fill btn-big btn-radius" >Book Now</a>
+                         <div class="h4-carousel">
+                             <h4 >belle</h4>
+                         </div>
+                     </div>
+        
+    
+                     <div class="carousel-item  fade">
+                          <img src="./content/slideshow-images/batman.jpg " alt="">  
+                          <a href="#" class="btn-book  btn-link btn-fill btn-big btn-radius" >Get Details</a>
+                         <div class="h4-carousel">
+                             <h4 >The Batman</h4>
+                         </div>
+                     </div>
+    
+                     <div class="carousel-item fade"> 
+    
+                        <img src="./content/slideshow-images/bts.jpg" alt="">  
+                        <div class="h4-carousel up-text">
+                            <h4 >bts permission to dance on stage-seoul:live</h4>
+                        </div>
+                        <a href="#" class="btn-book  btn-link btn-fill btn-big btn-radius" >Buy Ticket</a>
+                   </div>
+                   <div class="carousel-item  fade">
+                      
+                        <img src="./content/slideshow-images/uncharted.jpg" alt="">  
+                        <div class="h4-carousel font-border">
+                            <h4 >uncharted</h4>
+                        </div>
+                        <a href="#" class="btn-book  btn-link btn-fill btn-big btn-radius" >Book Now</a>
+                 </div>
+          
+              
+                <button  id= "btn-forward"class=" btn btn-arrow btn-forward"><ion-icon  name="chevron-forward-outline"></ion-icon></button>
+                <button id = "btn-back" class=" btn btn-arrow btn-back"><ion-icon  name="chevron-back-outline"></ion-icon></button>
+      
+                <div class="carousel-indicators">
+                    <button type="button" class="carousel-inidicator active-dot" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" class="carousel-inidicator" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" class="carousel-inidicator" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" class="carousel-inidicator" data-bs-slide-to="2" aria-label="Slide 4"></button>
+                </div>
+      
+            </div>
+     
+            </section>        
+    
+    
+             <section class="in-our-programs-section ">
+     
+                <div class="our-programs-container programs-container">
+                   <div class="title-programs"> <h3>Now in our program</h3></div>
+    
+                  <form action="" class="form-programs">
+                        <div>
+                            <h5>Choose a cinema</h5>
+                            <select name="cinemas" id="cinemas" class="cinemas">
+                                <option  class="option" value="Bucharest Afi Cotroceni">Example</option>
+                                <option class="option" value="Bucharest Afi Cotroceni">Bucharest Afi Cotroceni</option>
+                                <option class="option" value="Afi Ploiesti">Afi Ploiesti</option>
+                                <option class="option" value="Bucharest Mega Mall">Bucharest Mega Mall</option>
+                            </select>
+                        </div>
+    
+                        <div class="button-search">
+                            <button class="btn btn-link btn-fill btn-big btn-radius hide-btn">hide</button>
+                            <button class="btn btn-link btn-fill btn-big btn-radius">search</button>
+                     
+                        </div>
+                  </form>
+                </div>
+    
+    
+                <div class="search-container programs-container" style="display: none;">
+    
+                    <div class="movie-item">
+                        <div class="image-search-item"><img src="https://i.postimg.cc/76rkjpr4/4776-S3-R-lg.jpg" alt="The Batman"></div>
+                         <div class="details-movie">
+                             <div class="title-item"><h5>The Batman</h5></div>
+                             <div class="date-item"><p>2022-04-04</p></div>
+                             <a href="#" class=" btn-hour btn-link btn-fill btn-small btn-radius">13:40</a>
+                             <a href="#" class=" btn-hour btn-link btn-fill btn-small btn-radius">18:00</a>
+                             <a href="#" class=" btn-hour btn-link btn-fill btn-small btn-radius">19:40</a>
+                        </div>
+                    </div>
+                    <div class="movie-item">
+                        <div class="image-search-item"><img src="https://i.postimg.cc/76rkjpr4/4776-S3-R-lg.jpg" alt="The Batman"></div>
+                         <div class="details-movie">
+                             <div class="title-item"><h5>The Batman</h5></div>
+                             <div class="date-item"><p>2022-04-04</p></div>
+                             <a href="#" class=" btn-hour btn-link btn-fill btn-small btn-radius">13:40</a>
+                        </div>
+                    </div>
+                    <div class="movie-item">
+                        <div class="image-search-item"><img src="https://i.postimg.cc/76rkjpr4/4776-S3-R-lg.jpg" alt="The Batman"></div>
+                         <div class="details-movie">
+                             <div class="title-item"><h5>The Batman</h5></div>
+                             <div class="date-item"><p>2022-04-04</p></div>
+                             <a href="#" class=" btn-hour btn-link btn-fill btn-small btn-radius">13:40</a>
+                        </div>
+                    </div>
+                </div>
+             </section>
+               
+             <section class="movies-section container">
+                 
+
+
+                    <div class="slogan"><h2><span>Entertainment</span> for everyone</h2></div>
+                    
+                    <div class="search-movie-container">
+                        <div class="book-now"><h6>Now Booking</h6></div>
+                    <form action="" class="search-movie-form">
+                      
+                            <select name="type" id="tye" class="genre-selector  ">
+                                <option value="none">Type</option>
+                                <option  class="option" value="Action">Action</option>
+                                <option class="option" value="Crime">Crime</option>
+                                <option class="option" value="Crime">Concert</option>
+                                <option class="option" value="SF">SF</option>
+                            </select>
+                            <select name="age-restriction" id="age-restriction" class="age-restriction-selector">
+                                <option value="none">Age Restriction</option>
+                                <option  class="option" value="Action">Ap 12</option>
+                                <option class="option" value="Crime">AG</option>
+                                <option class="option" value="SF">SF</option>
+                            </select>
+                            <select name="year" id="year" class="year-select">
+                                <option value="none">Year</option>
+                                <option value="type">2022</option>
+                                <option value="type">2021</option>
+                                <option value="type">2020</option>
+                            </select>
+                            <select name="native-language" id="native-language" class="native-language-selector">
+                                <option value="none">Native</option>
+                                <option value="t">2022</option>
+                                <option value="type">2021</option>
+                                <option value="type">2020</option>
+                            </select>
+                          
+                     
+                 
+                            <div class="select-buttons">    
+                                   <div> <button class="btn btn-all-size btn-outline btn-small ">All</button></div>
+    
+                                   <div>  <button class=" apply-btn btn  btn-fill btn-small btn-radius">Apply</button></div>
+                           </div>
+                            
+                    </form>
+                    </div>
+
+
+                    <div class="result-searched-movie grid grid--cols-4">
+
+                        <div class="search-movie-item">
+                            <div class="image-search-movie-item"><a href="#"><img src="https://i.postimg.cc/NFkRTVFs/the-Batman.jpg" alt="The Batman"></a></div>
+                            <div class="movie-item-search-title"><a  class="link-movie " href="#">The Batman</a></div>
+                        </div>
+
+                        <div class="search-movie-item">
+                            <div class="image-search-movie-item"><a href="#"><img src="https://i.postimg.cc/SRKh890Z/belle.jpg" alt="The Batman"></a></div>
+                            <div class="movie-item-search-title"><a  class="link-movie " href="#">Belle</a></div>
+                        </div>
+
+                    </div>
+                    
+             </section>
+
+             <section class="one-movie-section container">
+
+                    <div class="one-movie-container grid">
+                        <div class="one-movie-image"><img src="https://i.postimg.cc/jS9MS7RQ/spierman-no-way-home.jpg" alt="Spider-man: no way home"></div> 
+                        <div class="content-one-movie">
+                            <div class="small-title-one-movie"><h6>Now in Cinema</h6></div>
+                            <div class="one-movie-title"><h4>Spider-man: no way home</h5></div>
+                            <div class="one-movie-summary"><p>When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man. Peter Parker's secret identity is revealed to the entire world. Desperate for help, Peter turns to Doctor Strange to make the world forget that he is Spider-Man</p></div>
+                            <div class="buttons-one-movie">
+                                <button id="watch-trailer" class="btn btn-outline btn-big "><ion-icon class="play-icon" name="play"></ion-icon>Watch trailer</button>
+                                <button class="btn btn-outline--yellow btn-big example">show more deatils</button>
+                            </div>
+                        </div>
+                    </div>
+             </section>
+    
+
+             <section class="photo-step-section container">
+
+
+                <div class="grid grid--cols-3 steps-container ">
+                    <div class="container-step-photo"><img src="./content/steps/1.jpeg" alt="Book Online"></div>
+                    <div class="container-step-photo"><img src="./content/steps/2.jpeg" alt="Beast Seats"></div>
+                    <div class="container-step-photo"><img src="./content/steps/3.jpeg" alt="From You Comofort"></div>
+                </div>
+
+             </section>
+
+
+             <div id = 'notify ' class="notify btn-radius example"><p></p></div>
+        
+             <div class="window-container " >
+                <div class="open-trailer" >
+                    <embed class="video-homepage" src="https://www.youtube.com/embed/JfVOs4VSpmA"></embed>
+                 <div>   <button id="close-trailer" class="btn btn-fill-red btn-small btn-radius btn--close-icon"><ion-icon class="close-icon" name="close-outline"></ion-icon></button></div>
+                 </div>
+             </div>
+
+
+    </main>
+
+
+
+
+
+
+    <footer class="footer-container">
+            <div class="footer-grid grid">
+
+                <div class="logo-icons-footer">
+                        <div class="footer-logo logo"><img src="./content/brand-logo/full-logo.jpeg" alt="Super Cinema Logo"></div>
+                        <div class=footer-icons>
+                            <ion-icon name="logo-instagram"></ion-icon>
+                            <ion-icon name="logo-facebook"></ion-icon>
+                            <ion-icon name="logo-tiktok"></ion-icon>
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </div>
+                </div>
+
+
+                <div class="ul-footer ">
+                    <div class="footer-title"><h5>Movies</h5></div>
+                    <ul>
+                        <li><a href="javascript:void(0)">Drama</a></li>
+                        <li><a href="javascript:void(0)">Adventure</a></li>
+                        <li><a href="javascript:void(0)">Comedy</a></li>
+                        <li><a href="javascript:void(0)">Action</a></li>
+                    </ul>
+                </div>
+                <div class="ul-footer ">
+                    <div class="footer-title"><h5>Support</h5></div>
+                    <ul>
+                        <li><a href="javascript:void(0)">Help Center</a></li>
+                        <li><a href="javascript:void(0)">FAQ</a></li>
+                        <li><a href="javascript:void(0)">Contact Is</a></li>
+                        <li><a href="javascript:void(0)">Ticket Support</a></li>
+                    </ul>
+                </div>
+                <div class="ul-footer ">
+                    <div class="footer-title"><h5>About Super Cinema</h5></div>
+                    <ul>
+                        <li><a href="javascript:void(0)">About Us</a></li>
+                        <li><a href="javascript:void(0)">Careers</a></li>
+                        <li><a href="javascript:void(0)">News & Article</a></li>
+                        <li><a href="javascript:void(0)">Legal Notice</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <div class="grid">
+                    <ul>
+                        <li><a href="javascript:void(0)">Term of Use</a></li>
+                        <li><a href="javascript:void(0)">Privacy Policy</a></li>
+                        <li><a href="javascript:void(0)">Cookie Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="copyright-text">
+                    <p>Copyright &#xa9; 2022. All rights reserved</p>
+                </div>
+            </div>
+    </footer>
+   
+
+</body>
+</html>

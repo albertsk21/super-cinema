@@ -1,0 +1,14 @@
+[
+  {
+    "category": "Regular",
+    "price": 5.1
+  },
+  {
+    "category": "Student",
+    "price": 4.1
+  },
+  {
+    "category": "Disability Person",
+    "price": 3.1
+  }
+]

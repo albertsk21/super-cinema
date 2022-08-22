@@ -1,0 +1,50 @@
+
+
+
+
+/* ---------------------------- */
+/*             756px           */
+/* ---------------------------- */
+
+@media (max-width : 47.25em){
+    .col-2-finish {
+
+        border-left: none; 
+        position: relative;
+        padding-top: 9rem;
+        padding-bottom: 9rem;
+        border-top: solid 1px #979796;
+    }
+    
+    .container-finish{
+        height: 82rem;
+    }
+
+}
+
+/* ---------------------------- */
+/*             400px           */
+/* ---------------------------- */
+
+@media (max-width : 25em){
+
+    .finish-box{
+        padding: 1rem;
+    }
+    .container-finish{
+        height: 80rem;
+    }
+
+}
+
+/* ---------------------------- */
+/*             225px           */
+/* ---------------------------- */
+
+@media (max-width : 22.5em){
+  
+    .container-finish{
+        height: 81.8rem;
+    }
+
+}
